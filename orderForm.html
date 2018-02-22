@@ -1,0 +1,24 @@
+<form class="" action="index.html" method="post">
+  <h1>Order Form</h1>
+  Requested date of services: <input type="datetime-local" name="" value="">
+  Timeframe: <input type="range" name="" value="">
+  Location: <input type="text" name="" value="">
+  How many will be served: <input type="number" name="" value="">
+  Apps: <input type="search" name="" value=""><button type="submit" name="button">+</button> <button type="reset" name="button">-</button>
+  Entrees: <input type="search" name="" value=""><button type="submit" name="button">+</button> <button type="reset" name="button">-</button>
+  Sides: <input type="search" name="" value=""><button type="submit" name="button">+</button> <button type="reset" name="button">-</button>
+  Desserts: <input type="search" name="" value=""><button type="submit" name="button">+</button> <button type="reset" name="button">-</button>
+  Beverages: <input type="search" name="" value=""><button type="submit" name="button">+</button> <button type="reset" name="button">-</button>
+</form>
+
+//table to display the order form
+<table>
+  Order For {{username.name}}
+  <hr><hr>
+  Date Request: {{orderForm.dateRequest}}
+  Timeframe: {{orderForm.timeFrame}}
+  Location: {{orderForm.location}}
+  Number of People: {{orderForm.served}}
+  <hr>
+
+</table>

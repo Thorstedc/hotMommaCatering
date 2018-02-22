@@ -1,0 +1,45 @@
+<h1>Meal Planner</h1>
+Servings: <input type="number" name="" value="">
+Meal Type: <input type="text" name="" value="">
+Diet: <input type="text" name="" value="">
+Length: <input type="text" name="" value="">
+Variety: <input type="text" name="" value="">
+<hr>
+<a href="#">Macro Calculator</a>
+<button type="button" name="button">Plan</button>
+<button type="submit" name="button">Save Meal Plan</button>
+<hr>
+//turn into a ui-view maybe
+<form class="" action="index.html" method="post">
+  <h4>Apps</h4>
+  <li ng-repeat= item in items>
+    <ul>
+      {{items.apps.itemId}}
+    </ul>
+  </li>
+  <h4>Entrees</h4>
+  <li ng-repeat= item in items>
+    <ul>
+      {{items.Entrees.itemId}}
+    </ul>
+  </li>
+  <h4>Sides</h4>
+  <li ng-repeat= item in items>
+    <ul>
+      {{items.Sides.itemId}}
+    </ul>
+  </li>
+  <h4>Desserts</h4>
+  <li ng-repeat= item in items>
+    <ul>
+      {{items.Desserts.itemId}}
+    </ul>
+  </li>
+  <h4>Beverages</h4>
+  <li ng-repeat= item in items>
+    <ul>
+      {{items.Beverages.itemId}}
+    </ul>
+  </li>
+</form>
+<button type="submit" name="button">Order</button>

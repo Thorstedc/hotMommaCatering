@@ -1,0 +1,33 @@
+<h1>Customers Served</h1>
+Total Servings to date: {{servings.total.current()}}
+<h3>"Best Sellers"</h3>
+<h4>Apps</h4>
+<li ng-repeat= item in items>
+  <ul>
+    {{items.apps.itemId}}
+  </ul>
+</li>
+<h4>Entrees</h4>
+<li ng-repeat= item in items>
+  <ul>
+    {{items.entrees.itemId}}
+  </ul>
+</li>
+<h4>Sides</h4>
+<li ng-repeat= item in items>
+  <ul>
+    {{items.sides.itemId}}
+  </ul>
+</li>
+<h4>Desserts</h4>
+<li ng-repeat= item in items>
+  <ul>
+    {{items.desserts.itemId}}
+  </ul>
+</li>
+<h4>Beverages</h4>
+<li ng-repeat= item in items>
+  <ul>
+    {{items.beverages.itemId}}
+  </ul>
+</li>

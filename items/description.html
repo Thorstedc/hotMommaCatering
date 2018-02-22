@@ -1,0 +1,12 @@
+<h1>Item Description</h1>
+{{item.itemId.name}}
+{{item.itemId.description}}
+{{item.itemId.image}}
+{{item.itemId.price}}
+{{item.itemId.rating}}
+<button type="submit" name="button">Leave A Review</button>
+
+<div class="itemReview" ng-repeat= review in reviews>
+  {{item.itemId.review}}
+
+</div>
