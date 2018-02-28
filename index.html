@@ -5,8 +5,16 @@
     <title>Hot Momma Catering</title>
     <link rel="stylesheet" href="index.css">
   </head>
-  <body>
+  <body ng-app="myApp" ng-controller="mainCtrl">
+    <ui-view></ui-view>
+    <nav-component class="b-box"></nav-component>
 
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js" charset="utf-8"></script>
+  <script src="app.js"></script>
+  <script type="text/javascript" src="mainCtrl.js"></script>
+  <script src="./components/navComponent.js" charset="utf-8"></script>
+  <script src="./components/menuComponent.js" charset="utf-8"></script>
+
 </html>
